@@ -1,9 +1,5 @@
-alert("Please Clicked on the button")
-
 var bulb = document.querySelector(".bulb")
-
 var flag = 0
-
 var button = document.querySelector("button")
 button.addEventListener("click", function(){
 if (flag == 0) {
